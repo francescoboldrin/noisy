@@ -1,0 +1,16 @@
+coin_flip_probability: 0.5
+incr_prob_start: 0.5
+incr_prob_end: 0.999
+incr_prob_step: 0.05
+start_seed_percentage: 0.01
+time_steps: 20
+greedy_algorithm_choice: 0
+perc_to_change_start: 0.2
+perc_to_change_end: 0.95
+perc_to_change_step: 0.1
+```
+
+delta_SIS_contagion: 0.35
+lambda_SIS_contagion: 0.25
+theta_SIS_contagion: 0.3
+```
