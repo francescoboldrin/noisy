@@ -377,7 +377,7 @@ def simulation(hypergraph, I_condition):
     outbreak_original = outbreak_original / 20
     print_hgraph(hypergraph, "./results/IM_highschool/o_hypergraph.txt")
     print("outbreak original: ", outbreak_original)
-    exit(2)
+    # exit(2)
     perc_to_change_tmp = perc_to_change_start
     while perc_to_change_tmp <= perc_to_change_end:
         print("percentage of nodes affected by noise: ", perc_to_change_tmp)
