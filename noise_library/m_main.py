@@ -281,12 +281,6 @@ def plot_outbreaks(result, outbreak_original, perc_to_change_tmp):
 
     :return: nothing
     """
-    file = open("./results/IM_highschool/counter_results.txt", "r")
-    counter = file.read()
-    if counter == "":
-        counter = 0
-    counter = int(counter)
-    file.close()
     try:
         os.mkdir("./results/IM_highschool/results_" + str(round(perc_to_change_tmp,3)))
         pass
